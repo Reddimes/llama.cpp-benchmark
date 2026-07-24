@@ -1,0 +1,17 @@
+# Git Ignore for llama.cpp-benchmark
+
+## Logs and Data
+benchmark_logs/
+*.log
+*.csv
+
+## System Files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+## Temp Files
+*.tmp
+*.bak
+*.swid
