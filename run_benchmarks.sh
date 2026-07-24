@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # --- Configuration ---
-MODEL_API_URL="http://127.0.0.1:8888/v1/models"
+MODEL_API_URL="${MODEL_API_URL:-http://127.0.0.1:8888/v1/models}"
 DEFAULT_ITERATIONS=10
 DEFAULT_OUTPUT_SIZE=1024
 RESULTS_DIR="benchmark_logs"

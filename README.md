@@ -31,10 +31,17 @@ A professional, high-fidelity benchmarking suite for LLM performance metrics.
    ```
 
 2. Ensure you have `bash` and `curl` installed.
-3. Configure your local LLM provider URL (default is `http://127.0.0.1:8888/v1/models`).
+
+## ⚙️ Configuration
+
+You can override the default LLM provider URL using the `MODEL_API_URL` environment variable.
+
+```bash
+MODEL_API_URL="http://192.168.1.50:8000/v1/models" ./run_benchmarks.sh
+```
 
 ## 🚀 Usage
-
+...
 Run the orchestrator to start the benchmark suite:
 
 ```bash
